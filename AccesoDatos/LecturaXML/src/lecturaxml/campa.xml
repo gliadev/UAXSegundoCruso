@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<campa nombre="Audi">
+    
+    <coche matricula="2345-KZD">
+        <modelo>Q5</modelo>
+        <distintivo>ECO</distintivo>
+        <combustible litro="65">Diesel</combustible>
+    </coche>
+    
+    <coche matricula="7362-FVR">
+        <modelo>A3</modelo>
+        <distintivo>B</distintivo>
+         <combustible litro="40">Diesel</combustible>
+    </coche>
+    
+    <coche matricula="9767-LRL">
+        <modelo>Q8</modelo>
+        <distintivo>CERO</distintivo>
+         <combustible litro="56">Diesel</combustible>
+    </coche>
+    
+    <coche matricula="1234-ABC">
+        <modelo>Model S</modelo>
+        <distintivo>CERO</distintivo>
+         <combustible litro="0">Electrico</combustible>
+    </coche>
+    
+   
+</campa>
+
