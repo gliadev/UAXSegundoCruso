@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 07-dic-2024 18:42:00 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.eneko.hibernate.Tema" table="tema" catalog="biblioteca" optimistic-lock="version">
+        <id name="idTema" type="java.lang.Integer">
+            <column name="idTema" />
+            <generator class="identity" />
+        </id>
+        <property name="nombreTema" type="string">
+            <column name="NombreTema" length="30" not-null="true" />
+        </property>
+        <set name="libros" table="libro" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="idTema" not-null="true" />
+            </key>
+            <one-to-many class="com.eneko.hibernate.Libro" />
+        </set>
+    </class>
+</hibernate-mapping>
