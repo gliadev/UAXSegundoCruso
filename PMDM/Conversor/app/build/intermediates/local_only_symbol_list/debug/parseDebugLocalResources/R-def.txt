@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+array seleccionesArray
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnCalcular
+id editTxt
+id main
+id spinnerSeleccion
+id txtViewScndActivity
+id txtViewTitulo
+layout activity_main
+layout activity_second
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Conversor
+style Theme.Conversor
+xml backup_rules
+xml data_extraction_rules
