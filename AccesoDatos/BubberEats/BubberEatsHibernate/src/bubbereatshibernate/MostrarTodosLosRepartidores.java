@@ -20,40 +20,58 @@ import org.hibernate.Transaction;
  */
 public class MostrarTodosLosRepartidores {
     public static void main(String[] args) {
-      Session session = null;
-        Transaction tx = null;
+        // Crear un escáner para leer datos de la consola
+        try (Scanner Teclado = new Scanner(System.in)) {
+            // Configurar Hibernate
+            SessionFactory sesion = HibernateUtil.getSessionFactory();
+            Session session = null;
+            Transaction tx = null;
 
-        try {
-            // Abrir la sesión
-            session = HibernateUtil.getSessionFactory().openSession();
-            // Iniciar la transacción
-            tx = session.beginTransaction();
+            try {
+                // Abrir la sesión y la transacción
+                session = sesion.openSession();
+                tx = session.beginTransaction();
 
-            // Consulta HQL
-            String hql = "FROM Repartidores";
-            List<Repartidores> repartidores = session.createQuery(hql).list();
+                // Solicitar datos al usuario
+                System.out.println("Agregando un nuevo Repartidor");
+                System.out.print("Introduce el nombre del repartidor: ");
+                String nombreRepartidor = Teclado.nextLine();
 
-            // Mostrar resultados
-            for (Repartidores repartidor : repartidores) {
-                System.out.println("ID: " + repartidor.getIdRepartidor() +
-                                   ", Nombre: " + repartidor.getNombreRepartidor() +
-                                   ", Teléfono: " + repartidor.getTelefono());
+                System.out.print("Introduce el teléfono del repartidor: ");
+                String telefonoRepartidor = Teclado.nextLine();
+
+                // Crear un nuevo repartidor con los datos ingresados
+                Repartidores Nuevorepartidor = new Repartidores();
+                Nuevorepartidor.setNombreRepartidor(nombreRepartidor);
+                Nuevorepartidor.setTelefono(telefonoRepartidor);
+
+                // Guardar en la base de datos
+                session.save(Nuevorepartidor);
+                tx.commit();
+
+                // Confirmación de éxito
+                System.out.println("El repartidor " + Nuevorepartidor.getNombreRepartidor() + " ha sido insertado en la base de datos.");
+            } catch (HibernateException e) {
+                // Manejar errores
+                if (tx != null) {
+                    tx.rollback(); // Revertir la transacción en caso de error
+                }
+                System.out.println("Error al insertar el repartidor: " + e.getMessage());
             }
 
-            // Confirmar la transacción
-            tx.commit();
-        } catch (Exception e) {
-            // Revertir la transacción en caso de error
-            if (tx != null) {
-                tx.rollback();
-            }
-            System.err.println("Error al mostrar repartidores: " + e.getMessage());
-            e.printStackTrace();
-        } finally {
-            // Cerrar la sesión
-            if (session != null) {
+            // Cerrar la sesión de manera explícita si se abrió correctamente
+            if (session != null && session.isOpen()) {
                 session.close();
+                System.out.println("La sesión se ha cerrado correctamente.");
             }
+
+            // Cerrar la fábrica de sesiones de manera explícita
+            if (sesion != null && !sesion.isClosed()) {
+                sesion.close();
+                System.out.println("La fábrica  se ha cerrado correctamente.");
+            }
+        } catch (Exception e) {
+            System.out.println("Error general: " + e.getMessage());
         }
     }
 }
