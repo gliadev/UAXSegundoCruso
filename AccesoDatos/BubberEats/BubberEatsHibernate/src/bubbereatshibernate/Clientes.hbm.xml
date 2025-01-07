@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-ene-2025 8:06:21 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="bubbereatshibernate.Clientes" table="clientes" catalog="bubbereats" optimistic-lock="version">
+        <id name="idCliente" type="java.lang.Integer">
+            <column name="id_cliente" />
+            <generator class="identity" />
+        </id>
+        <property name="nombreCliente" type="string">
+            <column name="nombre_cliente" length="100" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="100" not-null="true" />
+        </property>
+        <property name="direccion" type="string">
+            <column name="direccion" not-null="true" />
+        </property>
+        <set name="pedidoses" table="pedidos" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_cliente" not-null="true" />
+            </key>
+            <one-to-many class="bubbereatshibernate.Pedidos" />
+        </set>
+    </class>
+</hibernate-mapping>

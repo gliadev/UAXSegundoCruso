@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 07-dic-2024 18:42:00 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.eneko.hibernate.Editorial" table="editorial" catalog="biblioteca" optimistic-lock="version">
+        <id name="idEditorial" type="java.lang.Integer">
+            <column name="idEditorial" />
+            <generator class="identity" />
+        </id>
+        <property name="nombreEditorial" type="string">
+            <column name="NombreEditorial" length="30" not-null="true" />
+        </property>
+        <property name="direccion" type="string">
+            <column name="Direccion" length="100" not-null="true" />
+        </property>
+        <property name="telefono" type="string">
+            <column name="Telefono" length="15" not-null="true" />
+        </property>
+        <set name="libros" table="libro" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="idEditorial" not-null="true" />
+            </key>
+            <one-to-many class="com.eneko.hibernate.Libro" />
+        </set>
+    </class>
+</hibernate-mapping>

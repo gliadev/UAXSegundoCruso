@@ -1,0 +1,106 @@
+-- Eliminar la base de datos si ya existe
+DROP DATABASE IF EXISTS bubbereats;
+
+-- Crear la base de datos
+CREATE DATABASE bubbereats;
+USE bubbereats;
+
+-- Crear un usuario con todos los permisos
+CREATE USER 'bubber_admin'@'%' IDENTIFIED BY 'securePassword123';
+GRANT ALL PRIVILEGES ON bubbereats.* TO 'bubber_admin'@'%';
+FLUSH PRIVILEGES;
+
+-- Tabla clientes
+CREATE TABLE clientes (
+    id_cliente INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_cliente VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    direccion VARCHAR(255) NOT NULL
+);
+
+-- Tabla restaurantes
+CREATE TABLE restaurantes (
+    id_restaurante INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_restaurante VARCHAR(100) NOT NULL,
+    direccion VARCHAR(255) NOT NULL
+);
+
+-- Tabla repartidores
+CREATE TABLE repartidores (
+    id_repartidor INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_repartidor VARCHAR(100) NOT NULL,
+    telefono VARCHAR(15) NOT NULL
+);
+
+-- Tabla pedidos
+CREATE TABLE pedidos (
+    id_pedido INT AUTO_INCREMENT PRIMARY KEY,
+    id_cliente INT NOT NULL,
+    id_restaurante INT NOT NULL,
+    id_repartidor INT NOT NULL,
+    detalles TEXT,
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente),
+    FOREIGN KEY (id_restaurante) REFERENCES restaurantes(id_restaurante),
+    FOREIGN KEY (id_repartidor) REFERENCES repartidores(id_repartidor)
+);
+
+-- Insertar datos de prueba en clientes
+INSERT INTO clientes (nombre_cliente, email, direccion) VALUES
+('Juan Perez', 'juan.perez@example.com', 'Calle Falsa 123'),
+('Maria Lopez', 'maria.lopez@example.com', 'Avenida Siempreviva 742'),
+('Pedro Sanchez', 'pedro.sanchez@example.com', 'Calle Luna 9'),
+('Luisa Gomez', 'luisa.gomez@example.com', 'Plaza del Sol 34'),
+('Carla Romero', 'carla.romero@example.com', 'Avenida Los Rosales 56'),
+('Jorge Marin', 'jorge.marin@example.com', 'Calle Verde 78');
+
+-- Insertar datos de prueba en restaurantes
+INSERT INTO restaurantes (nombre_restaurante, direccion) VALUES
+('Restaurante Italiano', 'Plaza Mayor 1'),
+('Sushi Bar', 'Calle del Pescado 45'),
+('Tacos y Más', 'Avenida México 234'),
+('Hamburguesas Delicias', 'Calle Burguer 76'),
+('Pizzería Napoli', 'Plaza Italia 12'),
+('Veggie Land', 'Calle Verde 89');
+
+-- Insertar datos de prueba en repartidores
+INSERT INTO repartidores (nombre_repartidor, telefono) VALUES
+('Carlos Gomez', '123456789'),
+('Ana Martinez', '987654321'),
+('Luis Perez', '456123789'),
+('Sofia Lopez', '741852963'),
+('Diego Rivera', '963258741'),
+('Laura Fuentes', '852963741');
+
+-- Insertar datos de prueba en pedidos
+INSERT INTO pedidos (id_cliente, id_restaurante, id_repartidor, detalles) VALUES
+(1, 1, 1, '2 pizzas margarita, 1 lasaña'),
+(2, 2, 2, '3 rolls de sushi y 1 sashimi de salmón'),
+(3, 3, 3, '5 tacos al pastor y 2 quesadillas'),
+(4, 4, 4, '2 hamburguesas dobles con queso'),
+(5, 5, 5, '1 pizza de pepperoni y 1 ensalada César'),
+(6, 6, 6, '1 ensalada vegana y 1 batido de frutas');
+
+-- Insertar un cliente de prueba para eliminar (ID = 8)
+INSERT INTO clientes (id_cliente, nombre_cliente, email, direccion) VALUES
+(8, 'Cliente Prueba', 'cliente.prueba@example.com', 'Calle de Prueba 123');
+
+-- Insertar un pedido asociado al cliente de prueba
+INSERT INTO pedidos (id_cliente, id_restaurante, id_repartidor, detalles) VALUES
+(8, 1, 1, '1 pizza margarita');
+
+-- Procedimiento almacenado para eliminar un cliente
+DELIMITER //
+
+CREATE PROCEDURE byebyeCliente(IN idCliente INT)
+BEGIN
+    -- Eliminar pedidos asociados al cliente
+    DELETE FROM pedidos WHERE id_cliente = idCliente;
+    
+    -- Eliminar al cliente
+    DELETE FROM clientes WHERE id_cliente = idCliente;
+END //
+
+DELIMITER ;
+
+-- Llamar al procedimiento para eliminar el cliente de prueba (ID = 8)
+-- CALL byebyeCliente(8);
