@@ -14,20 +14,20 @@ import org.hibernate.Transaction;
  */
 public class ByebyeCliente {
     public static void main(String[] args) {
-    // ID del cliente a eliminar
-        int idCliente = 2;
+        
+     // ID del cliente a eliminar
+        int idCliente = 8;
 
-        // Declarar sesión y transacción
+        // Crear SessionFactory e inicializar variables
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = null;
         Transaction tx = null;
 
-        try {
-            // Abrir la sesión
-            session = HibernateUtil.getSessionFactory().openSession();
+        // Manejo manual de la sesión y la transacción
+        session = sessionFactory.openSession();
+        tx = session.beginTransaction();
 
-            // Iniciar transacción
-            tx = session.beginTransaction();
-
+         try {
             // Llamar al procedimiento almacenado 'byebyeCliente'
             session.createSQLQuery("CALL byebyeCliente(:idCliente)")
                    .setParameter("idCliente", idCliente)
@@ -37,16 +37,22 @@ public class ByebyeCliente {
             tx.commit();
             System.out.println("El cliente con ID " + idCliente + " ha sido eliminado correctamente.");
         } catch (Exception e) {
-            // Revertir la transacción en caso de error
-            if (tx != null) {
+            // Revertir la transacción si ocurre un error
+            if (tx != null && tx.isActive()) {
                 tx.rollback();
             }
             System.err.println("Error al eliminar el cliente: " + e.getMessage());
-        } finally {
-            // Cerrar la sesión si se abrió correctamente
-            if (session != null) {
+        }
+
+        // Cierre de sesión fuera del bloque try-catch
+        if (session != null && session.isOpen()) {
+            try {
                 session.close();
+            } catch (Exception closeException) {
+                System.err.println("Error al cerrar la sesión: " + closeException.getMessage());
             }
         }
     }
 }
+
+    
