@@ -4,77 +4,108 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2a3b170-b96d-4116-b518-eebc05eedcdc" name="Changes" comment="" />
+    <list default="true" id="2529f648-60d1-479e-9ef8-3e63ddda32dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Codigo Clase/Clase02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codigo Clase/Clase02InterfazGrafica.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codigo Clase/Clase03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Interface Grafica/CalculadoraDescuentos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Interface Grafica/EjercicioSemaforoInterfazGrafica.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicios/Interface Grafica/Semaforo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DDII.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DDII.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/.idea/CodigoDeClase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/Ejercicios/EjercicioSemaforoInterfazGrafica.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/Ejercicios/Semaforo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/src/Clase02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/src/Clase02InterfazGrafica.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/src/Clase03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/ui/Clase2InterfazGrafica.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodigoDeClase/ui/EjercicioSemaforoInterfazGrafica.ui" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  "associatedIndex": 0
 }]]></component>
-  <component name="ProjectId" id="2sJDS4xeAKJmlxkn9OKs20x8KG7" />
+  <component name="ProjectId" id="2suhFEZN6GXgfQ557tr1uoKHjvq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Clase02.executor": "Run",
+    "Python.CalculadoraDescuentos.executor": "Run",
+    "Python.Clase03.executor": "Run",
+    "Python.Clase04.executor": "Run",
+    "Python.Codigo05.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/adolfo/Developer/UAXSegundoCruso/DDII"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Clase02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DDII" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodigoDeClase/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodigoDeClase/src/Clase02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Clase02" />
-      </list>
-    </recent_temporary>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\Ejercicios\Interface Grafica" />
+      <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\Ejercicios\Interface Grafica\ui" />
+      <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\Ejercicios" />
+      <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\Codigo Clase" />
+      <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\Codigo Clase\ui" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2a3b170-b96d-4116-b518-eebc05eedcdc" name="Changes" comment="" />
-      <created>1738164782270</created>
+      <changelist id="2529f648-60d1-479e-9ef8-3e63ddda32dd" name="Changes" comment="" />
+      <created>1739311261918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1738164782270</updated>
+      <updated>1739311261918</updated>
+      <workItem from="1739311262951" duration="2586000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DDII$Clase03.coverage" NAME="Clase03 Coverage Results" MODIFIED="1739313616671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Codigo Clase" />
+    <SUITE FILE_PATH="coverage/DDII$Clase04.coverage" NAME="Clase04 Coverage Results" MODIFIED="1739313672444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Codigo Clase" />
+    <SUITE FILE_PATH="coverage/DDII$CalculadoraDescuentos.coverage" NAME="CalculadoraDescuentos Coverage Results" MODIFIED="1739313536416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Ejercicios/Interface Grafica" />
+    <SUITE FILE_PATH="coverage/DDII$Codigo05.coverage" NAME="Codigo05 Coverage Results" MODIFIED="1739313735627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Codigo Clase" />
   </component>
 </project>
