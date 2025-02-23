@@ -1,0 +1,14 @@
+1.- Crea una aplicación que simule un semáforo con las siguientes características:
+    Debe tener tres etiquetas (QLabel) que representen las luces: rojo, amarillo y verde.
+    Un botón que, al presionarlo, cambie el color de las luces simulando la secuencia de un semáforo
+    (rojo → amarillo → verde → rojo).
+
+2 Crea una aplicación que calcule descuentos con las siguientes características:
+    Una entrada para el precio original.
+    Una entrada para el porcentaje de descuento.
+    Un botón que muestre el precio final después de aplicar el descuento.
+
+
+3.- Diseña una interfaz que cuente cuántas veces se presiona un botón:
+    Un botón que el usuario pueda presionar repetidamente.
+    Una etiqueta que muestre el número total de clics realizados.

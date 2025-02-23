@@ -1,0 +1,13 @@
+1.- Crea una aplicación que permita gestionar contactos. Debe incluir:
+• Un botón que, al presionarse, agregue un contacto ficticio a una lista y muestre un mensaje
+confirmando la acción.
+• Un menú con las opciones "Añadir contacto", "Ver contactos" y "Eliminar contacto", cada
+una mostrando un mensaje informativo.
+
+
+2.- Crea una aplicación para gestionar tareas pendientes. Debe incluir:
+• Un botón que marque una tarea como completada y muestre un cuadro de mensaje con la
+tarea completada.
+• Un menú con las opciones "Nueva tarea", "Editar tarea" y "Eliminar tarea", cada una
+ejecutando una función que muestre un mensaje.
+• Un menú contextual para asignar una tarea a un usuario

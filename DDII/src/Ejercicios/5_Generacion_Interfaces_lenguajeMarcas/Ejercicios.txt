@@ -1,0 +1,8 @@
+Barra de herramientas con más acciones: Añadir más botones a la barra de herramientas, como
+"Limpiar", que borre el texto en el QLineEdit, y "Mostrar mensaje", que muestre un mensaje
+emergente con un texto personalizado
+
+
+Ventana de diálogo: Crear una ventana de diálogo que se muestre al hacer clic en una opción del
+menú "Ayuda". Esta ventana debe contener texto sobre el funcionamiento de la aplicación y debe
+tener un botón de "Cerrar".

@@ -1,0 +1,13 @@
+1.-
+Crea una ventana que permita al usuario ingresar un nombre de usuario y una contraseña.
+Muestra un mensaje en la consola cuando el usuario presione el botón de iniciar sesión.
+
+2.-
+Crea una aplicación que permita agregar tareas a una lista. El usuario puede escribir
+una tarea en un cuadro de texto y agregarla a un área de texto más grande
+que muestra todas las tareas acumuladas.
+
+3.-
+Crea una aplicación que implemente un cronómetro. Debe incluir botones para iniciar,
+pausar y reiniciar el cronómetro, y mostrar el tiempo transcurrido en formato mm:ss.
+(QTime)
