@@ -9,6 +9,7 @@ class CustomButton(QPushButton):
 
     def __init__(self, text = "Texto inicial"):
         super().__init__(text) # Llamos al constructor de QPushButton
+        self.current_color = None
         self._text = text # Inicializo el atributo _text con el texto proporcionado
         self.set_color_based_on_text()
 

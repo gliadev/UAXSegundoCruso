@@ -1,7 +1,7 @@
 import sys
 
 from PySide6.QtWidgets import QMainWindow, QApplication
-from src import Clase02InterfazGrafica
+from src.CodigoClase import Clase02InterfazGrafica
 
 
 
