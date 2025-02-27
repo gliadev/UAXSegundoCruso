@@ -4,7 +4,7 @@ from PySide6.QtGui import QPainter, QPen, QColor
 
 
 class CircularProgress(QWidget):
-    progressChanged = Signal(int)  # Señal para actualizar el progreso
+    progressChanged = Signal(int)
 
     def __init__(self, parent=None):
         super().__init__(parent)
