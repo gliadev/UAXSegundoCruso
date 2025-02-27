@@ -6,20 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2529f648-60d1-479e-9ef8-3e63ddda32dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codigo Clase/Clase01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodigoClase/Clase01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codigo Clase/Clase02.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodigoClase/Clase02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codigo Clase/Clase02InterfazGrafica.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodigoClase/Clase02InterfazGrafica.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codigo Clase/Clase03.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodigoClase/Clase03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codigo Clase/Clase04.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodigoClase/Clase04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codigo Clase/Clase05.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodigoClase/Clase05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codigo Clase/Clase06.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodigoClase/Clase06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codigo Clase/ui/Clase2InterfazGrafica.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodigoClase/ui/Clase2InterfazGrafica.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicios/Interface Grafica/CalculadoraDescuentos.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/2_Introduccion_Desarrollo_Interface_Grafica/CalculadoraDescuentos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicios/Interface Grafica/EjercicioSemaforoInterfazGrafica.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/2_Introduccion_Desarrollo_Interface_Grafica/EjercicioSemaforoInterfazGrafica.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicios/Interface Grafica/Semaforo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/2_Introduccion_Desarrollo_Interface_Grafica/Semaforo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicios/Interface Grafica/descuentos_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/2_Introduccion_Desarrollo_Interface_Grafica/descuentos_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicios/Interface Grafica/ui/EjercicioSemaforoInterfazGrafica.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/2_Introduccion_Desarrollo_Interface_Grafica/ui/EjercicioSemaforoInterfazGrafica.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicios/Interface Grafica/ui/calculadoraDescuentos.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicios/2_Introduccion_Desarrollo_Interface_Grafica/ui/calculadoraDescuentos.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,48 +33,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1_Contactos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_CustomButton.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_Login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_Checkbox.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_ListaTareas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_Tareas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_Cronometro.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CalculadoraDescuentos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Clase02 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Clase02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Clase03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Clase04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Clase05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Clase06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Clase07.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Clase07Socket.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Codigo05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_task_manager.test_add_empty_task.executor": "Run",
+    "Python.1_Contactos.executor": "Run",
+    "Python.1_CustomButton.executor": "Run",
+    "Python.1_Login.executor": "Run",
+    "Python.2_Checkbox.executor": "Run",
+    "Python.2_ListaTareas.executor": "Run",
+    "Python.2_Tareas.executor": "Run",
+    "Python.3_Cronometro.executor": "Run",
+    "Python.CalculadoraDescuentos.executor": "Run",
+    "Python.Clase02 (1).executor": "Run",
+    "Python.Clase02.executor": "Run",
+    "Python.Clase03.executor": "Run",
+    "Python.Clase04.executor": "Run",
+    "Python.Clase05.executor": "Run",
+    "Python.Clase06.executor": "Run",
+    "Python.Clase07.executor": "Run",
+    "Python.Clase07Socket.executor": "Run",
+    "Python.Clase08.executor": "Run",
+    "Python.Codigo05.executor": "Run",
+    "Python.Reto02.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src" />
+      <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\CodigoClase" />
       <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\Ejercicios\Interface Grafica" />
       <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\Ejercicios\Interface Grafica\ui" />
       <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\Ejercicios" />
-      <recent name="G:\GITHUB\UAXSegundoCruso\DDII\src\Codigo Clase" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Clase07Socket">
+  <component name="RunManager" selected="Python tests.Python tests for src.test.test_task_manager.test_add_empty_task">
     <configuration name="1_CustomButton" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DDII" />
       <option name="ENV_FILES" value="" />
@@ -104,75 +93,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Ejercicios/6_Creacion_Componentes_Personalizados/1_CustomButton.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2_Checkbox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DDII" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Ejercicios/6_Creacion_Componentes_Personalizados" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Ejercicios/6_Creacion_Componentes_Personalizados/2_Checkbox.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Clase05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DDII" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/CodigoClase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/CodigoClase/Clase05.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Clase06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DDII" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/CodigoClase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/CodigoClase/Clase06.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,13 +124,75 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Clase08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DDII" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/CodigoClase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/CodigoClase/Clase08.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Reto02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DDII" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Retos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Retos/Reto02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.test.test_task_manager.test_add_empty_task" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DDII" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.test.test_task_manager.test_add_empty_task&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for src.test.test_task_manager.test_add_empty_task" />
+        <item itemvalue="Python.Clase08" />
+        <item itemvalue="Python.Reto02" />
         <item itemvalue="Python.Clase07Socket" />
         <item itemvalue="Python.1_CustomButton" />
-        <item itemvalue="Python.2_Checkbox" />
-        <item itemvalue="Python.Clase06" />
-        <item itemvalue="Python.Clase05" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +223,9 @@
       <workItem from="1740303401496" duration="129000" />
       <workItem from="1740303533864" duration="11995000" />
       <workItem from="1740344570678" duration="572000" />
+      <workItem from="1740346717694" duration="1009000" />
+      <workItem from="1740391045261" duration="684000" />
+      <workItem from="1740475317356" duration="14603000" />
     </task>
     <servers />
   </component>
@@ -249,8 +234,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DDII$3_Cronometro.coverage" NAME="3_Cronometro Coverage Results" MODIFIED="1740323015473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Ejercicios/3ComponentesBasicosInterfaz" />
-    <SUITE FILE_PATH="coverage/DDII$2_Tareas.coverage" NAME="2_Tareas Coverage Results" MODIFIED="1740326654084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Ejercicios/4_Uso_Componentes_Personalizados" />
     <SUITE FILE_PATH="coverage/DDII$Clase03.coverage" NAME="Clase03 Coverage Results" MODIFIED="1740302589325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Codigo Clase" />
+    <SUITE FILE_PATH="coverage/DDII$2_Tareas.coverage" NAME="2_Tareas Coverage Results" MODIFIED="1740326654084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Ejercicios/4_Uso_Componentes_Personalizados" />
     <SUITE FILE_PATH="coverage/DDII$main.coverage" NAME="main Coverage Results" MODIFIED="1740323735994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/experiencia_login" />
     <SUITE FILE_PATH="coverage/DDII$Clase06.coverage" NAME="Clase06 Coverage Results" MODIFIED="1740343366447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/CodigoClase" />
     <SUITE FILE_PATH="coverage/DDII$1_CustomButton.coverage" NAME="1_CustomButton Coverage Results" MODIFIED="1740343741494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Ejercicios/6_Creacion_Componentes_Personalizados" />
@@ -260,8 +245,11 @@
     <SUITE FILE_PATH="coverage/DDII$2_ListaTareas.coverage" NAME="2_ListaTareas Coverage Results" MODIFIED="1740322538859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Ejercicios/3ComponentesBasicosInterfaz" />
     <SUITE FILE_PATH="coverage/DDII$Clase04.coverage" NAME="Clase04 Coverage Results" MODIFIED="1739313672444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Codigo Clase" />
     <SUITE FILE_PATH="coverage/DDII$Clase07.coverage" NAME="Clase07 Coverage Results" MODIFIED="1739965156975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Codigo Clase" />
+    <SUITE FILE_PATH="coverage/DDII$.coverage" NAME=" Coverage Results" MODIFIED="1740486092913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/CodigoClase/test" />
     <SUITE FILE_PATH="coverage/DDII$Clase02__1_.coverage" NAME="Clase02 (1) Coverage Results" MODIFIED="1740303885006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/CodigoClase" />
     <SUITE FILE_PATH="coverage/DDII$1_Login.coverage" NAME="1_Login Coverage Results" MODIFIED="1740322387467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Ejercicios/3ComponentesBasicosInterfaz" />
+    <SUITE FILE_PATH="coverage/DDII$Reto02.coverage" NAME="Reto02 Coverage Results" MODIFIED="1740478897877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Retos" />
+    <SUITE FILE_PATH="coverage/DDII$Clase08.coverage" NAME="Clase08 Coverage Results" MODIFIED="1740480581603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/CodigoClase" />
     <SUITE FILE_PATH="coverage/DDII$Clase05.coverage" NAME="Clase05 Coverage Results" MODIFIED="1740343056122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/CodigoClase" />
     <SUITE FILE_PATH="coverage/DDII$Clase07Socket.coverage" NAME="Clase07Socket Coverage Results" MODIFIED="1740344643206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/CodigoClase" />
     <SUITE FILE_PATH="coverage/DDII$CalculadoraDescuentos.coverage" NAME="CalculadoraDescuentos Coverage Results" MODIFIED="1740304111515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Ejercicios/2IntroduccionDesarrolloInterfaceGrafica" />
