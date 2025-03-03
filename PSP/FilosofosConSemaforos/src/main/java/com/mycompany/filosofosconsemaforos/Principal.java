@@ -13,7 +13,7 @@ import java.util.concurrent.Semaphore;
 public class Principal {
 
     public static void main(String[] args) {
-        final int numPhilosophers = 5;
+        final int numPhilosophers = 6;
         Semaphore[] forks = new Semaphore[numPhilosophers];
         Philosopher[] philosophers = new Philosopher[numPhilosophers];
         //Inicializar los tenedores

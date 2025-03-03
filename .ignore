@@ -1,7 +1,0 @@
-# Archivos de configuración del entorno
-.idea/
-.gradle/
-local.properties
-
-# Archivos temporales o de sistema
-*.log
