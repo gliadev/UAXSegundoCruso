@@ -84,3 +84,4 @@ config.properties
 # 🔹 Archivos comprimidos
 *.zip
 /PSP/EjercicioNumerosPrimosExamen/target/
+/PSP/EjercicioTCPExamen/target/
