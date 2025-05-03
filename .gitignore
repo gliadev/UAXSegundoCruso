@@ -85,3 +85,4 @@ config.properties
 *.zip
 /PSP/EjercicioNumerosPrimosExamen/target/
 /PSP/EjercicioTCPExamen/target/
+/PSP/EjercicioProcesosExamen/target/
