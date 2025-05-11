@@ -1,0 +1,9 @@
+- Implementar una interfaz gráfica en Python utilizando PyQt6 (PySide6).
+- Permitir al usuario escribir y agregar notas a una lista.
+- Implementar la opción de eliminar notas seleccionadas.
+- Escribir pruebas automatizadas con Pytest para verificar el correcto funcionamiento.
+- Crear un archivo README.md con la descripción del proyecto y las instrucciones de instalación
+y uso.
+- Generar un archivo ejecutable con PyInstaller para que la aplicación pueda ejecutarse sin
+necesidad de instalar dependencias.
+
